@@ -13,61 +13,61 @@
       authorized_key:
         user: root
         state: present
-        key: https://github.com/rice-acs/ssh-keys/dab11-rsa.pub
+        key: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCj6JeQdnJboNRHDd1DiWZki6ROb9ajxg3Rmq7fycm2HX4cLZUk/HXgfE9nGcEpqP6YaNcJWwQcrHH4TUb/woqamM6vChUAxpQpNDPfnJcvuwnyoeLSyudYTYt5IZ28ttqNFyDgek7UI5V+2qxoCphuErdt+pUhvSvCre9QPBVwOGz5Mc4H5yCICsiaQcgby2yDjWzvPLK4XYh82bk193AiRTUZteOliUto9WGRVaW8cIP0WwnIqeFjTns7vOAV6Fgf1Ewe3z+dPzFtnmh+pZpFU3vvuWtw7QFz1bZ9H1Dy017SLIeiJEKW0ou4dk7R1AydW+fanlHUDlhhXJIV9z4fsnf7wQw9JKKxtl6Dqsm7LOafTDmNECektjAgNmsW21G//CCjin7nKVRna07hfOy4JQNMg8zIwRJ03jI3mBW+BgcLJ2dRzySrtmVP3M7ZTT0wypZi9BkYTnvFYuSutmGrgVkZdREDyUUhWM5LAZM+yI595H8AXiWw332ZgiRVXtPXp5Q6aVHl27plCq2p1HGYj31wx3RC7gV1L5t11PwZOB265Zuptps+8UAd8k+XrpE0OsEy27fcajabnU9pq9eeLrhEmzB76hYaOCMFt3aGt5Mi4nXKLhsah+0fBpH387y0Q56g24bJJ9Fc+XjRliDl6fwVaHj5gvuo8WezmNylKw== dab11@rice.edu'
         key_options: 'from="168.7.23.162"'
 
     - name: install dab11 authorized_key file
       authorized_key:
         user: root
         state: present
-        key: https://github.com/rice-acs/ssh-keys/dab11.pub
+        key: 'ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIENGlKi4MhyK9dMUj6r8nHNRbtxhf+3A9EqE8WlPJ0yu david@panama.rice.edu'
         key_options: 'from="168.7.23.162"'
 
     - name: install dab11-protected authorized_key file
       authorized_key:
         user: root
         state: present
-        key: https://github.com/rice-acs/ssh-keys/dab11-protected.pub
+        key: 'ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINgaa6ug9lt3cR0gcqcYVxZIeqSVAPXK8nR9BdpqBXcO David-protected'
 
     - name: install burkett-rsa authorized_key file
       authorized_key:
         user: root
         state: present
-        key: https://github.com/rice-acs/ssh-keys/burkett-rsa.pub
+        key: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDCIcigk1ETM8mG5rgdQUlvidButObXdQoqxdB6oKvvsAAfLmRykyUhuc0qsWBYTury31HKFKbd/FUokytmvYwhucNebP/dnEUJ1lB61M8TqLdCQjitBOCgGBDqGXRrIMCIttHcNudsX3KvUwFmgG1Gye28xSIqRfQQJlcCHk2Nb53ccP+Xchh7xlbvjOVdOhhRFwp3RfdkdUgvLj8PFLFd/I08RY5PVIayzhmKIaE8MX03UHkcJQYjixCLwXkl/Cn5BpVox5BDQtT3VYAMc8f8ySNqvtpihvKSAmiNk4XbMNbrvzuVCzR2H/KsswCJy/UgOnkIA0DXnzo79P0w/Ky3 burkett@anslem.is.rice.edu'
 
     - name: install dalton authorized_key file
       authorized_key:
         user: root
         state: present
-        key: https://github.com/rice-acs/ssh-keys/jz71-rsa.pub
+        key: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCzRIoEt6BbbURRpV9pjAw+gByQRsTcw5rr2yiF8F6dseLNTERL9GlZoShBkze6KjuuDyX4591FapvKAE9+fm3n/Saqu663xYz88AzZjJMyIgQEZ+tQ4bHzqAsrI1VfBj4m48Ybn9uN3pMLoAYJr2Fji00usr2xZc6bKEcdnU5odLEjCzor9EYMhzKYASJM7drfG7vcOQf4kQMSPT7HR/ABowg3T9AHKEFRHdCvtfxxgqTHhjcl9lIxq7IM0BSBtM1hKAAV/XqtNINjpxbxPs2co2B97CG1CEUgTYtsc+X14uuyFuHq2VH9eC54gn2Dq4c/sVa1+/s3E3AxfWY0Pzrt Dalton'
 
     - name: install mc76-rsa authorized_key file
       authorized_key:
         user: root
         state: present
-        key: https://github.com/rice-acs/ssh-keys/mc76-rsa.pub
+        key: 'ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAw2Mv8CCPH9Ljn+7a145/4HdHOa1bnPJ0Nh+OfcoUyyqwrsTiy/we+1jACndloYxih6wFhH1bMalQJ/IjDeRb433aKXotuMIsylyI/G8eoDwgwfUJJJK2Swk6D4x7m7Aif0xilPESpMuxR+IDcah0Eb8u/9oB1SS6hx/OZPipQzFpITMtRM9kK6gbRsNrnirzP8GHsvqZCjECZsHQlLKxBCGTvpyWGxqwiLrtf9BAcnod7ETFUZsE7KYTdQoGZmJeSRxAFk54Zrrux1AgSb+tOlgrwlG7K6b51bvEhK6HK2o4LHUuO5H8upNd/ipx0ODh60nQ1khEBH0SQjuMbhts8w== mc76@rice.edu'
 
     - name: install sep6-rsa authorized_key file
       authorized_key:
         user: root
         state: present
-        key: https://github.com/rice-acs/ssh-keys/sep6-rsa.pub
+        key: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCzlHRNaiBUCFHjudC60SG1wZS9at5+a82MbDo6F2gNyNCtg8qR50yLoJCNQkhQYe0E72hM5QQNpbwiZNV0Co9/fmC72Wdn3LwWtd0dm6Ko+lBsan8oElYLXe8dH6VeMirIboxzo1PkrGLTKhKn302BmOFRhE/kRwIt3AbSiyTQ4aumJii5Q+oPM7C9Wk2P7+J+H7LJCzi8RZ6y18uKGXt1sFE08Ct7SK8wRsgzqImYgXNtpSX9U2Tb6U+xmkbJQDLHxK6+x6w2KtpBGwZ+bIVtOwpxUwNSz6lhBE6IrsyMhVf651pNmbaz7XAS062Ogu01Fu9KfUWvZvUP8ppBYEYb polandse@cordillera.rice.edu'
 
     - name: install sep6 authorized_key file
       authorized_key:
         user: root
         state: present
-        key: https://github.com/rice-acs/ssh-keys/sep6.pub
+        key: 'ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKlSeLDvqm+ouhgpglawj8QmoX2L74Ts6ENyZ6rswUlt sep6@localhost.localdomain'
 
     - name: install ansible-root authorized_key file
       authorized_key:
         user: root
         state: present
-        key: https://github.com/rice-acs/ssh-keys/ansible-root.pub
+        key: 'ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICaA86A5EkQRionzyrjpfqUb9CgRd/11gvhfeSK6xRu0 root@ansible.rice.edu'
 
     - name: install kali-root authorized_key file
       authorized_key:
         user: root
         state: present
-        key: https://github.com/rice-acs/ssh-keys/kali-root-rsa.pub
+        key: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDtO4T6gc8RsS66yrl+/oNpykQV9+ah/iqHfv8qVQQs3txDdzzBd30/bN7LgYMdbl6iJooL/QTxwWzHdZNJQYXGbFhncZPL76iF62eJ2PVgdR09151cGW60B0bz/20GhrqLXdGO2iBDNye9sZLRKlw1X7qa9+e4cxJbfZvfX3Zgxx5nxNJYe2wmxTgkrDCHvjRVUsgxGfQ/ITpOxtHbQyFxQfcZ4EtorfQKPqaQsnJFaZzSMWq2vq6dOBHISiu7rctIarZ2YIN6AqzcEj5PxL0RObBrhupSgdJLlf7p5grpH8krnltCvax4PiDxPKn8CxWvxc/kEbadslM6DfXAJ96SMZ0qScCpjsWUCcIdXtSOMO4Dr32zYjVLJbi44kosf1rkyuLA5sPrpc1jfX49vPYsJ+4+Y370Ebg/tc1wu7lmiTEOQ8omuPB+oeBO3o7aXqjedlbE2kfWR4WPulftttqxjQGHgKMETXQ3H4j6xve+CAZqBu7clF1HH8NiuTXDU9vzy+UCtPwssurfeoMs8kp79GLS3ZJgrw1uOoVFxI7IpSPqVSZT3fjikvJG/+nap4obJR2UjI5ASOHuI8NSck2z+6wOFlx1GbAufYgUwmTQ43lxWfokKFZSJkMqBanYvlmRp18+Gy0Uu0bOFDq6Vmt8y5762oSbpZMWSNjNmYGoCQ== root@kali.cs.rice.edu'
 
