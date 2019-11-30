@@ -6,68 +6,68 @@
       authorized_key:
         user: root
         state: present
-        key: https://git.arc.rice.edu/ssh-keys/puppet-root.pub
+        key: https://github.com/ssh-keys/puppet-root.pub
         key_options: 'from="10.128.81.58"'
 
     - name: install dab11-rsa authorized_key file
       authorized_key:
         user: root
         state: present
-        key: https://git.arc.rice.edu/ssh-keys/dab11-rsa.pub
+        key: https://github.com/ssh-keys/dab11-rsa.pub
         key_options: 'from="168.7.23.162"'
 
     - name: install dab11 authorized_key file
       authorized_key:
         user: root
         state: present
-        key: https://git.arc.rice.edu/ssh-keys/dab11.pub
+        key: https://github.com/ssh-keys/dab11.pub
         key_options: 'from="168.7.23.162"'
 
     - name: install dab11-protected authorized_key file
       authorized_key:
         user: root
         state: present
-        key: https://git.arc.rice.edu/ssh-keys/dab11-protected.pub
+        key: https://github.com/ssh-keys/dab11-protected.pub
 
     - name: install burkett-rsa authorized_key file
       authorized_key:
         user: root
         state: present
-        key: https://git.arc.rice.edu/ssh-keys/burkett-rsa.pub
+        key: https://github.com/ssh-keys/burkett-rsa.pub
 
     - name: install dalton authorized_key file
       authorized_key:
         user: root
         state: present
-        key: https://git.arc.rice.edu/ssh-keys/jz71-rsa.pub
+        key: https://github.com/ssh-keys/jz71-rsa.pub
 
     - name: install mc76-rsa authorized_key file
       authorized_key:
         user: root
         state: present
-        key: https://git.arc.rice.edu/ssh-keys/mc76-rsa.pub
+        key: https://github.com/ssh-keys/mc76-rsa.pub
 
     - name: install sep6-rsa authorized_key file
       authorized_key:
         user: root
         state: present
-        key: https://git.arc.rice.edu/ssh-keys/sep6-rsa.pub
+        key: https://github.com/ssh-keys/sep6-rsa.pub
 
     - name: install sep6 authorized_key file
       authorized_key:
         user: root
         state: present
-        key: https://git.arc.rice.edu/ssh-keys/sep6.pub
+        key: https://github.com/ssh-keys/sep6.pub
 
     - name: install ansible-root authorized_key file
       authorized_key:
         user: root
         state: present
-        key: https://git.arc.rice.edu/ssh-keys/ansible-root.pub
+        key: https://github.com/ssh-keys/ansible-root.pub
 
     - name: install kali-root authorized_key file
       authorized_key:
         user: root
         state: present
-        key: https://git.arc.rice.edu/ssh-keys/kali-root-rsa.pub
+        key: https://github.com/ssh-keys/kali-root-rsa.pub
 
